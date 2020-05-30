@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open + Sans:ital, wght@0, 300;0, 400;0, 600;0, 700;0, 800;1, 300;1, 400;1, 600;1, 700;1, 800&family=Playfair + Display:ital, wght@0, 400;0, 500;0, 600;0, 700;0, 800;0, 900;1, 400;1, 500;1, 600;1, 700;1, 800;1, 900&display=swap'); {
+}
+
+body {
+  background-color: #dbeae9;
+  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+h1 {
+  color: #2b2f78;
+}
+
+h2 {
+  color: #000000;
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  color: #2b2f78;
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 900;
+}
+
+.nav-link {
+  font-size: 18px;
+  margin-left: 18px;
+}
+
+.header {
+  padding: 30px 0 30px 0;
+}
+
+.border-pretty {
+  border: 1px solid #2b2f78;
+  color: #2b2f78;
+}
+
+.border-pretty:hover {
+  border: 1px solid #2b2f78;
+  color: #ffffff;
+  background-color: #2b2f78;
+}
+
+.nonfic h1, h2 {
+  background-size: cover;
+  background-position: center;
+}
+
+.border-pretty {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.btn.border-pretty {
+  text-decoration: none;
+}
+
+.navbar {
+  color: rgba(0,0,0);
+  font-weight: 200;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.nav-link {
+  border-width: 2px;
+}
+
+.header .border-pretty {
+  text-decoration: none;
+}
+
+.header-wrapper {
+  width: 100vw;
+  background-color: #feecd4;
+  min-height: 50vh;
+}
+
+@media (min-width: 1920px) {
+  .header-wrapper {
+    max-height: 25vh;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .header-wrapper {
+    height: 100%;
+  }
+}
+
+.donate {
+  background-color: #2b2f78;
+  color: #fff;
+  border-radius: .25rem;
+}
+
+.donate:hover {
+  border-width: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.border-pretty {
+  border: 1px solid #2b2f78;
+  color: #2b2f78;
+}
+
+.border-pretty:hover {
+  border: 1px solid #2b2f78;
+  color: #ffffff;
+  background-color: #2b2f78;
+}
+
+.news-list-content {
+  margin-bottom: 20px;
+}
+
+.border-pretty {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.btn.border-pretty {
+  text-decoration: none;
+}
+
+.team {
+  padding: 40px 0;
+}
+
+.team2 h5 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.team2 h6 {
+  margin: 0;
+}
+
+.team2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.team2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.formsubmission {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.form-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+.internal-container {
+  padding: 40px 0;
+}
+
