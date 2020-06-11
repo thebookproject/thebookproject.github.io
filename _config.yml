@@ -1,0 +1,36 @@
+name: The Book Project
+
+url: '/'
+baseurl: '/'
+
+collections:
+  nonfiction:
+    output: true
+  fiction:
+    output: true
+  art:
+    output: true
+  poetry:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "nonfiction"
+    values:
+      layout: "blog"
+  - scope:
+      path: ""
+      type: "fiction"
+    values:
+      layout: "blog"
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: "blog"
+  - scope:
+      path: ""
+      type: "poetry"
+    values:
+      layout: "blog"

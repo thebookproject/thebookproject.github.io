@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<nav class="navbar navbar-light navbar-expand-lg">
+<div class="container-fluid container"><a class="navbar-brand" href="index.html">The<br>Book<br>Project</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
+    <ul class="nav navbar-nav">
+      <li class="nav-item" role="presentation"><a class="nav-link" href="art.html">Art</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="poetry.html">Poetry</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="nonfiction.html">Non-Fiction</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+      <li class="nav-item" role="presentation"><a class="nav-link donate" href="support.html" style="color: #ffffff;">Support Us<br></a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<div class="article-clean">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 article-container">
+        <div class="intro">
+          <h1 class="text-center">{{ page.title }}</h1>
+          <p class="text-center"><span class="by">by</span> <a href="#">{{ page.writer }}</a><span class="date">{{ page.date }}</span></p><img class="img-fluid" src="{{ page.image_url }}" alt="picture of {{ page.title }}">
+        </div>
+        <div class="text">
+          {{ page.writeup }}
+          <br />
+          {% include share-bar.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

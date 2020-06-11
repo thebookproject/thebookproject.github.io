@@ -1,0 +1,42 @@
+---
+layout: headersmall
+title: Fiction
+---
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header text-center">
+            <h1>{{ page.title }}</h1>
+            <h2>A bunch of artwork</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 article-list">
+        <h2 class="text-center">Latest</h2>
+        <div class="photo-gallery">
+          <div class="px-lg-5">
+            <div class="row">
+              {% for fiction_item in site.fiction %}
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                  <div class="bg-white"><img class="img-fluid card-img-top" src="{{ fiction_item.image_url }}" alt="{{ fiction_item.title }}">
+                    <div class="p-4 art-content">
+                      <h5><a class="link text-decoration-none" href="{{ fiction_item.url }}">{{ fiction_item.title }}</a></h5>
+                      <h6>by {{ fiction_item.writer }}</h6>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
