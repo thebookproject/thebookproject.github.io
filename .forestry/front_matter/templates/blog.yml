@@ -1,4 +1,24 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: writer
+  type: text
+  config:
+    required: false
+  label: writer
+- name: image_url
+  type: text
+  config:
+    required: false
+  label: image_url
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
