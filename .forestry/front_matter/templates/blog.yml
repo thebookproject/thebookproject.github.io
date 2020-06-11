@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: Date
+pages:
+- _poetry/abc.md
