@@ -3,7 +3,6 @@ title: THE OBSERVER SPEAKS
 writer: PUJITHA
 image_url: https://thebookproject.team/assets/img/he-left-but-before-that-he-told-me-one-thing-which-left-me-with-a-questioning-my-own-thoughts-10.png
 date: 21 June, 2020
-published: false
 
 ---
 Out on my nightly routine,  
